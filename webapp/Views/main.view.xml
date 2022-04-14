@@ -1,0 +1,13 @@
+<mvc1:XMLView
+controllerName="mydemos.walkthrough.Controllers.main"
+xmlns="sap.m" 
+xmlns:mvc1="sap.ui.core.mvc">   
+<Text text="Hello world from view!"></Text>
+<Button text="{myi18n>buttonText}" press=".onShowMessage"></Button>
+<Input
+value="{/person/name}"
+description="Hello {/person/name}"
+valueLiveUpdate="true"
+width="50%"
+></Input>
+</mvc1:XMLView>
